@@ -1,6 +1,13 @@
 from manim import *
 import numpy as np
 
+'''
+TODO:
+- [ ] Track and bounds
+- [ ] Cart wheels?
+- [ ] Make something happen on failure state... stop animation?
+
+'''
 class InvertedPendulumAnimation(Scene):
     time = 0.0
     def construct(self):
